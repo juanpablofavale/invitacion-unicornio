@@ -9,121 +9,127 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .unicornio{
-    width: 600px;
-    height: 500px;
-    position: relative;
     background-color: white;
-    margin-top: 350px;
-    border: 2px solid pink;
-    box-shadow: 0 0 10px pink;
+    height: 250px;
+    width: 260px;
     border-radius: 10px;
+    box-shadow: 0 0 25px pink;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.orejaizq{
-    height: 40%;
-    position: absolute;
-    left: -130px;
-    top: -150px;
-    transform: rotate(15deg);
-}
-
-.cuerno{
-    height: 90%;
-    position: absolute;
-    right: 38%;
-    top: -350px;
+.frente{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
 }
 
 .orejader{
-    height: 40%;
-    position: absolute;
-    right: -130px;
-    top: -150px;
-    transform: rotate(-15deg);
+    position: relative;
+    top: -50px;
+    right: -30px;
+    height: 90px;
+    transform: rotate(-20deg);
+}
+
+.cuerno{
+    position: relative;
+    top: -130px;
+    height: 150px;
+}
+
+.orejaizq{
+    position: relative;
+    top: -50px;
+    left: -30px;
+    height: 90px;
+    transform: rotate(20deg);
 }
 
 .ojos{
-    width: 100%;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 90px;
-    margin-top: 130px;
-}
-
-.pestañaizq{
     position: relative;
-    left: 40px;
-}
-
-.pestañader{
-    position: relative;
-    right: 40px;
-}
-
-.pestaña img{
-    margin-top: 40px;
-    width: 120px;
-}
-
-.ojo{
+    top: -90px;
+    width: 90%;
     display: flex;
-    align-items: center;
-    background-color: aqua;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-top: 30px;
-}
-
-.ojoizq .ojo{
-    justify-content: end;
-}
-
-.iris{
-    background-color: black;
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-}
-
-.brillo{
-    background-color: white;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-top: 10px;
+    justify-content: space-around;
 }
 
 .ojoizq{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 10px;
 }
 
 .ojoder{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 10px;
+}
+
+.ojo{
+    width: 60px;
+    height:60px;
+    background-color: aqua;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.iris{
+    width: 50px;
+    height:50px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.ojoizq .ojo{
+    justify-content: end;
+}
+
+.brillo{
+    margin-top: 5px;
+    width: 15px;
+    height:15px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.pestaña img{
+    height: 80px;
+}
+
+.pestañaizq{
+    top: -4px;
+    position: relative;
+    left: 15px;
+}
+
+.pestañader{
+    top: -4px;
+    position: relative;
+    right: 15px;
 }
 
 .nariz{
+    position: relative;
+    top: -30px;
     display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-top: 90px;
-    margin-bottom: 40px;
+    gap: 10px;
 }
 
 .orificio{
+    background-color: pink;
     width: 20px;
     height: 20px;
-    background-color: pink;
-    border-radius: 50%;
+    border-radius: 10px;
 }
