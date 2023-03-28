@@ -19,8 +19,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
-    height: 100vh;
+    min-height: 500px;
 }
 
 #unicornio:target{
@@ -41,7 +40,7 @@ body{
 }
 
 .unicornio:hover{
-    transform: scale(1.1);
+    transform: scale(1.01);
 }
 
 .frente{
