@@ -19,6 +19,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid;
     height: 100vh;
 }
 
@@ -155,7 +156,6 @@ body{
 }
 
 #tarjeta{
-    margin-top: -250px;
     visibility: hidden;
     position: absolute;
     flex-direction: column;
