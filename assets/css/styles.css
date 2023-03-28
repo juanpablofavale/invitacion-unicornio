@@ -28,11 +28,8 @@ body{
     height: 100%;
 }
 
-#unicornio:target{
-    visibility: visible;
-}
 
-.unicornio{
+#unicornio{
     background-color: white;
     height: 250px;
     width: 260px;
@@ -43,10 +40,12 @@ body{
     align-items: center;
     transition: all .2s;
     visibility: hidden;
+    transform: translateY(130px);
 }
 
-.unicornio:hover{
-    transform: scale(1.01);
+#unicornio:target{
+    visibility: visible;
+    transform: translateY(0px);
 }
 
 .frente{
