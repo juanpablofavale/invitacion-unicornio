@@ -159,7 +159,7 @@ body{
     visibility: hidden;
     position: absolute;
     flex-direction: column;
-    transition: all 1s;
+    transition: all .5s;
     transform: scaleY(0);
 }
 
