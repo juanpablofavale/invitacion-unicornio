@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-a{
+a:active{
     text-decoration: none;
     outline: none;
 }
