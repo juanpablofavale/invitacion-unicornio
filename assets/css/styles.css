@@ -5,6 +5,10 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+a{
+    text-decoration: none;
+}
+
 a:active{
     text-decoration: none;
     outline: none;
@@ -151,16 +155,17 @@ body{
 }
 
 #tarjeta{
+    margin-top: -250px;
     visibility: hidden;
     position: absolute;
     flex-direction: column;
-    transition: all .5s;
-    transform: scale(0);
+    transition: all 1s;
+    transform: scaleY(0);
 }
 
 #tarjeta:target{
     visibility: visible;
-    transform: scale(1);
+    transform: scaleY(1);
 }
 
 .tarjeta-top, .tarjeta-bottom{
