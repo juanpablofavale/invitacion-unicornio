@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+    outline: none;
+}
+
 body{
     background-color: antiquewhite;
     display: flex;
@@ -21,7 +26,7 @@ body{
     height: 250px;
     width: 260px;
     border-radius: 10px;
-    box-shadow: 0 0 25px pink;
+    box-shadow: 0 0 35px pink;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,22 +47,22 @@ body{
 
 .orejader{
     position: relative;
-    top: -50px;
-    right: -30px;
+    top: -57px;
+    right: -12px;
     height: 90px;
     transform: rotate(-20deg);
 }
 
 .cuerno{
     position: relative;
-    top: -130px;
-    height: 150px;
+    top: -110px;
+    height: 140px;
 }
 
 .orejaizq{
     position: relative;
-    top: -50px;
-    left: -30px;
+    top: -57px;
+    left: -12px;
     height: 90px;
     transform: rotate(20deg);
 }
