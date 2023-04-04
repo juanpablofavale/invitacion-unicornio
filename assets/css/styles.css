@@ -40,6 +40,15 @@ body{
     align-items: center;
     transition: all .4s;
     visibility: hidden;
+    animation: 2.5s;
+    animation-name: sombra;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sombra{
+    0% {box-shadow: 0 0 40px pink;}
+    50% {box-shadow: 0 0 50px #fd01d3;}
+    100% {box-shadow: 0 0 40px pink;}
 }
 
 #unicornio:target{
