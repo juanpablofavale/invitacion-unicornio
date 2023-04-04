@@ -192,6 +192,22 @@ body{
     align-items: center;
 }
 
+.confeti1{
+    position: absolute;
+    top: 180px;
+    left: -75px;
+}
+
+.confeti2{
+    position: absolute;
+    top: 180px;
+    right: -75px;
+}
+
+.confeti img{
+    width: 150px;
+}
+
 .escritura{
     font-family: 'Comic Neue', cursive;
     font-family: 'Alkatra', cursive;
