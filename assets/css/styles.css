@@ -239,3 +239,22 @@ body{
 .escritura h2, .esxritura h4{
     font-size: 18px;
 }
+
+#jpf{
+    cursor: pointer;
+    text-decoration: none;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+    font-family: "Special Elite";
+    color: black;
+    font-size: 15px;
+}
+
+#jpf a{
+    color: #1100ff;
+    text-decoration: none;
+    font-family: "Special Elite";
+    font-size: 15px;
+}
